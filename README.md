@@ -11,6 +11,7 @@ IMCHANGER is a bash script tool designed to enhance network anonymity by periodi
 - 🛠 Reverts to the original MAC and IP address.
 - 🔄 Runs in a loop for 30 minutes, changing settings every 30 seconds.
 
+
 ## Installation
 
 1. Ensure you have a Unix-based system with bash installed.
@@ -21,19 +22,21 @@ IMCHANGER is a bash script tool designed to enhance network anonymity by periodi
 
 3. Navigate to the cloned directory:
 
-       $ cd IMCHANGER
+       cd IMCHANGER
 
-  Usage :
-     To start the tool and change the network settings, run the following command:
+## Usage
+   To start the tool and change the network settings, run the following command:
+     
+       bash imchanger.sh
+     
+   To revert the network settings to the original state, run:
+     
+       bash imchanger.sh revert
+
   
-      $ bash imchanger.sh
-  
-     To revert the network settings to the original state, run:
-  
-      $ bash imchanger.sh revert
-  
-  Contributing
-      Feel free to contribute to this project by submitting issues or pull requests. Any improvements or suggestions are welcome.
-      
-  License
-      This project is licensed under the MIT License. See the LICENSE file for details.
+## Contributing
+   Feel free to contribute to this project by submitting issues or pull requests. Any improvements or suggestions are welcome.
+
+   
+## License
+   This project is licensed under the MIT License. See the LICENSE file for details.
